@@ -1,0 +1,496 @@
+
+/*默认的组件的 自己加span标签之后的字体颜色*/
+.el-input-span{
+    color: #48576a;
+}
+
+/*通用的表单样式 主背景是灰色的 内容背景是白色的*/
+.self-wrapper-container{
+    width: 1100px;
+    margin: auto;
+    background-color: #edf0f5;
+}
+.all-forms{
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 43px;
+}
+.all-forms:last-child{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+/**
+ * HOME页面的样式表
+ */
+.kemi-nav-container .active {
+    background-color: #2b69e9 !important;
+}
+.nav-container .active {
+    background-color: #f2f9fe;
+    color: #1774ff !important;
+}
+.container {
+    padding-bottom: 100px;
+    width: 100%;
+    background-color: #edf0f5;
+    position: absolute;
+}
+.header-menu {
+    width: 100%;
+    height: 70px;
+    background: #3675f6;
+}
+.header-nav > div {
+    float: left;
+}
+.header-nav {
+    width: 1102px;
+    margin: auto;
+}
+.header-logo {
+    margin-top: 22px;
+    margin-right: 145px;
+    height: 25px;
+    width: 80px;
+}
+.header-logo-img {
+    width: 100%;
+    height: 100%;
+}
+.kemi-nav-container > div {
+    float: left;
+    height: 70px;
+    width: 115px;
+    line-height: 70px;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}
+.nav-container>div{
+    color: #999 !important;
+    height: 100px !important;
+    line-height: 150px !important;
+    cursor: pointer;
+}
+.header-children-menu {
+    width: 100%;
+    height: 100px;
+    background: #fff;
+}
+.header-children-nav {
+    width: 1102px;
+    margin: auto;
+}
+.wrapper-contents{
+    width: 1102px;
+    margin: auto;
+}
+.main {
+    display: flex;
+    overflow: hidden;
+}
+.content-container {
+    flex:1;
+}
+.breadcrumb-container {
+    height: 45px;
+    line-height: 45px;
+}
+.title {
+    float: left;
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+}
+.breadcrumb-inner {
+    float: left;
+    color: #666;
+    font-size: 14px;
+    line-height: 45px !important;
+}
+/**
+ * 二级菜单的导航背景图片
+ * 上下间距是 135px 
+ * 左右间距是 135px
+ * 左上角第一个图标的位置是 -60px -80px;
+ */
+
+/**
+ * 首页
+ */
+.nav-child-item-1{
+    background-image: url('../../static/sprites/bg_default.png');
+    background-position: -60px -80px;
+}
+.nav-child-item-1.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -60px -80px;
+}
+.nav-child-item-2{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -60px -215px;
+}
+.nav-child-item-2.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -60px -215px;
+}
+.nav-child-item-3{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -60px -350px;
+}
+.nav-child-item-3.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -60px -350px;
+}
+.nav-child-item-4{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -60px -485px;
+}
+.nav-child-item-4.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -60px -485px;
+}
+.nav-child-item-5{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -60px -620px;
+}
+.nav-child-item-5.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -60px -620px;
+}
+/**
+ * 财务管理
+ */
+.nav-child-item-6{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -60px -755px;
+}
+.nav-child-item-6.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -60px -755px;
+}
+.nav-child-item-7{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -60px -890px;
+}
+.nav-child-item-7.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -60px -890px;
+}
+.nav-child-item-8{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -60px -1025px;
+}
+.nav-child-item-8.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -60px -1025px;
+}
+.nav-child-item-9{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -195px -80px;
+}
+.nav-child-item-9.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -195px -80px;
+}
+/**
+ * 教务教学
+ */
+.nav-child-item-10{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -195px -215px;
+}
+.nav-child-item-10.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -195px -215px;
+}
+.nav-child-item-11{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -195px -350px;
+}
+.nav-child-item-11.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -195px -350px;
+}
+.nav-child-item-12{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -195px -485px;
+}
+.nav-child-item-12.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -195px -485px;
+}
+.nav-child-item-13{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -195px -620px;
+}
+.nav-child-item-13.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -195px -620px;
+}
+.nav-child-item-14{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -195px -755px;
+}
+.nav-child-item-14.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -195px -755px;
+}
+.nav-child-item-15{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -195px -890px;
+}
+.nav-child-item-15.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -195px -890px;
+}
+.nav-child-item-16{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -195px -1025px;
+}
+.nav-child-item-16.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -195px -1025px;
+}
+/**
+ * 人事档案
+ */
+.nav-child-item-17{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -60px -1160px;
+}
+.nav-child-item-17.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -60px -1160px;
+}
+.nav-child-item-18{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -195px -1160px;
+}
+.nav-child-item-18.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -195px -1160px;
+}
+/**
+ * 大厅
+ */
+.nav-child-item-19{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -60px -1295px;
+}
+.nav-child-item-19.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -60px -1295px;
+}
+.nav-child-item-20{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -195px -1295px;
+}
+.nav-child-item-20.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -195px -1295px;
+}
+.nav-child-item-21{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -60px -1430px;
+}
+.nav-child-item-21.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -60px -1430px;
+}
+.nav-child-item-27{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -60px -1835px;
+}
+.nav-child-item-27.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -60px -1835px;
+}
+.nav-child-item-28{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -195px -1835px;
+}
+.nav-child-item-28.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -195px -1835px;
+}
+.nav-child-item-29{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -60px -1970px;
+}
+.nav-child-item-29.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -60px -1970px;
+}
+/**
+ * 家长互动
+ */
+.nav-child-item-22{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -195px -1430px;
+}
+.nav-child-item-22.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -195px -1430px;
+}
+/**
+ * 系统设置
+ */
+.nav-child-item-23{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -60px -1565px;
+}
+.nav-child-item-23.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -60px -1565px;
+}
+.nav-child-item-24{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -195px -1565px;
+}
+.nav-child-item-24.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -195px -1565px;
+}
+.nav-child-item-25{
+    background-image: url('../../static/sprites/bg_default.png');
+    background-position: -60px -1700px;
+}
+.nav-child-item-25.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -60px -1700px;
+}
+.nav-child-item-26{
+    background-image: url('../static/sprites/bg_default.png');
+    background-position: -195px -1700px;
+}
+.nav-child-item-26.active{
+    background-image: url('../static/sprites/bg_hovered.png');
+    background-position: -195px -1700px;
+}
+
+/**
+ * 添加公用的样式，可复用高的内容
+ */
+
+/*默认的无样式按钮*/
+.el-button--kemi-default{
+    height: 32px;
+    padding: 0px 14px;
+    text-align: center;
+    line-height: 0px !important;
+}
+.el-button--kemi-default:focus,
+.el-button--kemi-default:hover{
+    border-color: #3675f6;
+    color: #3675f6;
+    line-height: 0px;
+    line-height: 0px !important;
+}
+/*蓝色的按钮*/
+.el-button--kemi-primary{
+    height: 32px;
+    padding: 0px 35px;
+    border-color: #c7e1f8;
+    background-color: #e9f6ff;
+    color: #2ca4fc;
+    text-align: center;
+    line-height: 0px !important;
+}
+/*提交的按钮*/
+.el-button--kemi-submit{
+    height: 32px;
+    padding: 0px 35px;
+    border-color: #3675f6;
+    background-color: #3675f6;
+    color: #fff;
+    text-align: center;
+    line-height: 0px !important;
+}
+.el-button--kemi-submit-diff{
+    height: 32px;
+    padding: 0px 14px;
+    border-color: #3675f6;
+    background-color: #3675f6;
+    color: #fff;
+    text-align: center;
+}
+.el-button--kemi-submit-diff:focus,
+.el-button--kemi-submit-diff:hover{
+    height: 32px;
+    padding: 0px 14px;
+    border-color: #3675f6;
+    background-color: #3675f6;
+    color: #fff;
+    text-align: center;
+}
+/*按钮取消*/
+.el-button--kemi-cancel{
+    height: 32px;
+    padding: 0px 35px;
+    text-align: center;
+    line-height: 0px !important;
+}
+
+/*表格的头部*/
+.form-title{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #edf0f5;
+    margin-bottom: 15px;
+}
+.form-title .form-left{
+    line-height: 50px;
+    float: left;
+    font-weight: 400;
+    margin-left: 20px;
+    display: flex;
+}
+.form-title .form-right{
+    float: right;
+    margin-right: 30px;
+}
+
+/**
+ * 进行筛选的列表
+ */
+.select-title{
+    text-align: right;
+}
+.select-info{
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-right: 20px;
+}
+.select-list{
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.select-list.selected{
+    border: 1px solid #3675f6;
+    color: #000;
+    padding: 3px 7px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.selected-array{
+    height: 50px;
+    border-top: 1px solid #edf0f5;
+}
+
+/*底部信息提交的区块*/
+.info-submit-warpper{
+    height: 70px;
+    border-top: 1px solid #edf0f5;
+}
+
+
+
+
