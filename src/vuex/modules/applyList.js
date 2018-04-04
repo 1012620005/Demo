@@ -1,6 +1,6 @@
 import * as types from '../types';
 import Vue from 'vue'
-import userApi from '../../apis/userCenter.js'
+// import userApi from '../../apis/userCenter.js'
 const state = {
     menuList:null,
     name: ''
@@ -18,10 +18,11 @@ const actions = {
     	commit('GETMENULIST',data)
     },
     getname({commit,state},data){
-        userApi.getCurrentUser().then(res =>{
-            let data = res.data.data
-            commit('GETNAME',data.name)
-        })
+        commit('GETMENULIST',data)
+        // userApi.getCurrentUser().then(res =>{
+        //     let data = res.data.data
+        //     commit('GETNAME',data.name)
+        // })
         
     }
 };

@@ -51,6 +51,7 @@ module.exports = {
           publicPath: process.env.NODE_ENV === 'production' ?'/dist/' : ''
         }
       },
+      { test: /\.bpmn$/, loader: 'xml-loader' },
       {
         test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
         loader: 'url-loader',
